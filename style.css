@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+body{background:linear-gradient(160deg,darkblue,darkblue,blue,darkblue,darkblue,blue,darkblue,blue,darkblue,darkblue);}
+
+header{
+       padding: 20px;
+       box-shadow: 5px 5px 13px #222;
+       background:linear-gradient(160deg,yellow,lightyellow,yellow,gold,yellow,lightyellow,gold);
+       color: darkblue;
+       text-align: center;
+       text-shadow: 0px 2px 2px black;
+       font-family: 'Arial Narrow', Arial, sans-serif;
+       font-weight: bold;
+       
+}
+
+.score{
+    position: relative;
+    padding: 15px 20px;
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    color:white;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+   }
+
+span{
+    font-size: 40pt;
+    text-shadow: 2px 4px 2px black;
+}
+
+.padge{
+    background: red;
+    padding: 5px;
+    display: inline;
+    top: 30px;
+    border-radius: 5px;
+    font-size: 14pt;
+}
+
+#user-lbl{
+    position: absolute;
+    left: -65px;
+    width: 80px;
+}
+
+#comp-lbl{
+    position: absolute;
+    right: -65px;
+    width: 80px;
+}
+
+.result{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24pt;
+    text-shadow: 2px 5px 5px rgb(32, 0, 0);
+}
+
+.chss{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.uch{
+    display: inline;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid darkblue;
+    border-radius: 100px;
+    background: darkblue;
+    opacity: 0.9;
+    transition: all 0.3s ease-in;
+}
+img:hover{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border: 5px solid blue;
+    border-radius: 100px;
+    background: blue;
+    top: 2px;
+    opacity: 1;
+}
+
+#act{
+    padding: 20px 0px 50px 0px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24pt;
+    text-shadow: 2px 2px 4px black;
+}
