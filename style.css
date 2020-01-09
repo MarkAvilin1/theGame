@@ -6,7 +6,7 @@
     font-weight: bold;
 }
 
-body{background-image:linear-gradient(to botton,darkblue,blue,darkblue,blue,darkblue,blue,darkblue,darkblue);}
+body{background-image:linear-gradient(to bottom,darkblue,blue,lightblue,blue,darkblue);}
 
 header{
        padding: 20px;
